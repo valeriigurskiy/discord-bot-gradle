@@ -48,11 +48,11 @@ public class CommandService extends ListenerAdapter {
                 }
                 break;
             case "play":
-                if (event.getChannel().getName().equals("боты")) {
+//                if (event.getChannel().getName().equals("боты")) {
                     playMusic(event);
-                } else {
-                    wrongChannel(event, "942699475930083339");
-                }
+//                } else {
+//                    wrongChannel(event, "942699475930083339");
+//                }
                 break;
             case "skip":
                 skipMusic(event);
